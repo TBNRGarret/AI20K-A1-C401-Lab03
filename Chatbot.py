@@ -1,4 +1,5 @@
 import os
+import time
 from dotenv import load_dotenv
 from src.core.openai_provider import OpenAIProvider
 
@@ -41,18 +42,17 @@ def chat_loop() -> None:
             continue
 
         try:
-            result = chatbot.generate(prompt=user_input, system_prompt=SYSTEM_PROMPT)
-            print(f"Bot: {result['content']}")
+            start_time = time.time()
+            print("Bot: ", end="", flush=True)
 
-            usage = result.get("usage", {})
-            latency_ms = result.get("latency_ms", "?")
-            print(
-                "[meta] "
-                f"latency={latency_ms}ms, "
-                f"prompt={usage.get('prompt_tokens', '?')}, "
-                f"completion={usage.get('completion_tokens', '?')}, "
-                f"total={usage.get('total_tokens', '?')}\n"
-            )
+            full_response = ""
+            for token in chatbot.stream(prompt=user_input, system_prompt=SYSTEM_PROMPT):
+                print(token, end="", flush=True)
+                full_response += token
+
+            latency_ms = int((time.time() - start_time) * 1000)
+            print("\n")
+            print(f"[meta] latency={latency_ms}ms, chars={len(full_response)}\n")
         except Exception as error:
             print(f"Bot lỗi: {error}\n")
 
