@@ -1,0 +1,162 @@
+[
+  {
+    "output": "[MOCK CHATBOT] 'Kho còn iPhone 15 không?'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Mã GIAM20 có còn hiệu lực không? Giảm bao nhiêu %?'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Tính phí ship hàng 2kg, khoảng cách 15km'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Tôi muốn mua 1 MacBook Air M2, áp mã GIAM20. Tổng '",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Kho còn AirPods Pro không? Nếu còn, ship về nhà tô'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Tôi có mã XXXXXXX, áp vào mua iPhone 15 thì giảm đ'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Kho có Samsung Galaxy Z Fold 6 không? Áp mã GIAM20'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Tôi muốn mua 2 iPhone 15, áp mã GIAM20, ship về cá'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Kho còn AirPods Pro không? Nếu còn lấy tôi 1 cái, '",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] 'Tôi muốn mua đồ Apple, cái nào rẻ nhất thì lấy, sh'",
+    "latency_ms": 200,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Kho còn iPhone 15 không?'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Mã GIAM20 có còn hiệu lực không? Giảm bao nhiêu %?'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Tính phí ship hàng 2kg, khoảng cách 15km'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Tôi muốn mua 1 MacBook Air M2, áp mã GIAM20. Tổng '",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Kho còn AirPods Pro không? Nếu còn, ship về nhà tô'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Tôi có mã XXXXXXX, áp vào mua iPhone 15 thì giảm đ'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Kho có Samsung Galaxy Z Fold 6 không? Áp mã GIAM20'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Tôi muốn mua 2 iPhone 15, áp mã GIAM20, ship về cá'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Kho còn AirPods Pro không? Nếu còn lấy tôi 1 cái, '",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] 'Tôi muốn mua đồ Apple, cái nào rẻ nhất thì lấy, sh'",
+    "latency_ms": 300,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  }
+]
