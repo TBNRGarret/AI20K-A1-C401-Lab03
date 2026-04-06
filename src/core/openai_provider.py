@@ -31,11 +31,21 @@ class OpenAIProvider(LLMProvider):
 
         # Extraction from OpenAI response
         content = response.choices[0].message.content
-        usage = {
-            "prompt_tokens": response.usage.prompt_tokens,
-            "completion_tokens": response.usage.completion_tokens,
-            "total_tokens": response.usage.total_tokens
-        }
+        
+        # Defensive check: response.usage may be None with some OpenRouter models or API errors
+        if response.usage:
+            usage = {
+                "prompt_tokens": response.usage.prompt_tokens,
+                "completion_tokens": response.usage.completion_tokens,
+                "total_tokens": response.usage.total_tokens
+            }
+        else:
+            # Fallback when usage data is unavailable
+            usage = {
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 0
+            }
 
         return {
             "content": content,
