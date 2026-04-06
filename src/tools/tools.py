@@ -58,13 +58,107 @@ PRODUCTS_DB = {
         "price": 2500000,
         "stock": 12,
         "category": "phu_kien"
+    },
+    "tivi samsung 55 inch": {
+        "name": "Smart TV Samsung 55 inch 4K",
+        "price": 12000000,
+        "stock": 6,
+        "category": "dien_tu"
+    },
+    "tivi lg 43 inch": {
+        "name": "Smart TV LG 43 inch",
+        "price": 8000000,
+        "stock": 9,
+        "category": "dien_tu"
+    },
+    "loa jbl": {
+        "name": "Loa Bluetooth JBL Charge 5",
+        "price": 3500000,
+        "stock": 14,
+        "category": "dien_tu"
+    },
+    "pin du phong": {
+        "name": "Pin dự phòng Anker 20000mAh",
+        "price": 900000,
+        "stock": 25,
+        "category": "phu_kien"
+    },
+    "o cung di dong": {
+        "name": "Ổ cứng di động WD 1TB",
+        "price": 1800000,
+        "stock": 11,
+        "category": "phu_kien"
+    },
+    "xiaomi 13 lite": {
+        "name": "Xiaomi 13 Lite",
+        "price": 9000000,
+        "stock": 10,
+        "category": "dien_thoai",
+        "rating": 4.4
+    },
+    "realme 11": {
+        "name": "Realme 11",
+        "price": 7000000,
+        "stock": 15,
+        "category": "dien_thoai",
+        "rating": 4.3
+    },
+    "vivo v27": {
+        "name": "Vivo V27",
+        "price": 8000000,
+        "stock": 9,
+        "category": "dien_thoai",
+        "rating": 4.4
+    },
+    "iphone 15 pro": {
+        "name": "iPhone 15 Pro 128GB",
+        "price": 28000000,
+        "stock": 6,
+        "category": "dien_thoai",
+        "rating": 4.8
+    },
+    "iphone 15 pro max": {
+        "name": "iPhone 15 Pro Max 256GB",
+        "price": 34000000,
+        "stock": 4,
+        "category": "dien_thoai",
+        "rating": 4.9
+    },
+    "samsung s24 ultra": {
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 30000000,
+        "stock": 5,
+        "category": "dien_thoai",
+        "rating": 4.8
+    },
+    "iphone 13": {
+        "name": "iPhone 13 128GB",
+        "price": 15000000,
+        "stock": 12,
+        "category": "dien_thoai",
+        "rating": 4.7
+    },
+    "samsung s22": {
+        "name": "Samsung Galaxy S22",
+        "price": 13000000,
+        "stock": 7,
+        "category": "dien_thoai",
+        "rating": 4.6
+    },
+    "oppo find x5": {
+        "name": "Oppo Find X5",
+        "price": 14000000,
+        "stock": 6,
+        "category": "dien_thoai",
+        "rating": 4.5
     }
 }
 
 DISCOUNT_DB = {
     "GIAM20": 0.2,
     "SALE10": 0.1,
-    "VOUCHERSAMUNG": 0.25
+    "VOUCHERSAMUNG": 0.25,
+    "XXXXXXXXXX": 0.3
 }
 
 def check_inventory(product_name: str):
