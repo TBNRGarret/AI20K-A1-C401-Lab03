@@ -1,0 +1,179 @@
+[
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "error": "cannot import name 'Chatbot' from 'Chatbot' (D:\\VinUniAI\\assignments\\Day-3-Lab-Chatbot-vs-react-agent\\Chatbot.py)",
+    "latency_ms": 0,
+    "tools_called": [],
+    "steps": 0
+  },
+  {
+    "output": "Hiện tại, còn 10 chiếc iPhone 15 trong kho.",
+    "latency_ms": 3406,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "Mã giảm giá GIAM20 còn hiệu lực và giảm 20%.",
+    "latency_ms": 3099,
+    "tools_called": [
+      "get_discount"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "Phí ship cho hàng 2kg với khoảng cách 15km là 40.000 VND.",
+    "latency_ms": 2975,
+    "tools_called": [
+      "calc_shipping_fee"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "Tổng tiền hàng sau giảm là 22.400.000 VND.",
+    "latency_ms": 5042,
+    "tools_called": [
+      "check_inventory",
+      "get_discount"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "AirPods Pro 2 còn hàng với giá 6.000.000 VND. Phí ship về nhà bạn cách 50km với trọng lượng 0.3kg là 66.500 VND.",
+    "latency_ms": 5135,
+    "tools_called": [
+      "check_inventory",
+      "calc_shipping_fee"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "Mã giảm giá bạn cung cấp không có giá trị giảm giá nào cho việc mua iPhone 15.",
+    "latency_ms": 3092,
+    "tools_called": [
+      "get_discount"
+    ],
+    "steps": 1,
+    "error": null
+  },
+  {
+    "output": "Giá sau khi giảm 20% cho Xiaomi Redmi Note 12 là 4.000.000 VND.",
+    "latency_ms": 12829,
+    "tools_called": [
+      "check_inventory",
+      "search_product",
+      "check_inventory",
+      "check_inventory",
+      "check_inventory",
+      "get_discount"
+    ],
+    "steps": 6,
+    "error": null
+  },
+  {
+    "output": "Tổng chi phí cho 2 iPhone 15 là 38.400.000 VND (đã giảm 20%) và phí ship là 55.000 VND. Tổng cộng phải trả 38.455.000 VND.",
+    "latency_ms": 8253,
+    "tools_called": [
+      "check_inventory",
+      "get_discount",
+      "calc_shipping_fee"
+    ],
+    "steps": 3,
+    "error": null
+  },
+  {
+    "output": "Phí vận chuyển cho đơn hàng AirPods Pro 2 từ nhà bạn cách 50km là 67.500 VND.",
+    "latency_ms": 5422,
+    "tools_called": [
+      "check_inventory",
+      "calc_shipping_fee"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "Xin lỗi, tôi không thể hoàn thành yêu cầu trong 8 bước. Vui lòng thử diễn đạt lại câu hỏi.",
+    "latency_ms": 15379,
+    "tools_called": [
+      "search_product",
+      "search_product",
+      "search_product",
+      "check_inventory",
+      "check_inventory",
+      "check_inventory",
+      "check_inventory",
+      "get_discount"
+    ],
+    "steps": 8,
+    "error": null
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Kho còn iPhone 15 không?...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Mã VIP20 có còn hiệu lực không? Giảm bao...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Tính phí ship hàng 2kg, khoảng cách 15km...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Tôi muốn mua 1 Macbook Pro, áp mã SALE30...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Kho còn AirPods không? Nếu còn, ship về ...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Tôi có mã XXXXXXX, áp vào mua iPhone 15 ...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Kho có Samsung Galaxy Z Fold 6 không? Áp...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Tôi muốn mua 2 iPhone 15, áp mã VIP20, s...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Kho còn AirPods không? Nếu còn lấy tôi 1...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK CHATBOT] Đây là câu trả lời giả cho: 'Tôi nghe nói shop có sale lớn lắm? Tôi m...'",
+    "latency_ms": 300,
+    "tools_called": [],
+    "steps": 0,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Kho còn iPhone 15 không?...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Mã VIP20 có còn hiệu lực không? Giảm bao...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Tính phí ship hàng 2kg, khoảng cách 15km...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Tôi muốn mua 1 Macbook Pro, áp mã SALE30...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Kho còn AirPods không? Nếu còn, ship về ...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Tôi có mã XXXXXXX, áp vào mua iPhone 15 ...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Kho có Samsung Galaxy Z Fold 6 không? Áp...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Tôi muốn mua 2 iPhone 15, áp mã VIP20, s...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Kho còn AirPods không? Nếu còn lấy tôi 1...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  },
+  {
+    "output": "[MOCK AGENT] Đây là câu trả lời có tool cho: 'Tôi nghe nói shop có sale lớn lắm? Tôi m...'",
+    "latency_ms": 500,
+    "tools_called": [
+      "check_inventory"
+    ],
+    "steps": 2,
+    "error": null
+  }
+]
