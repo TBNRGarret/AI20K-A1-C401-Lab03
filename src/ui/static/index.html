@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart E-commerce Agent | Premium AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-radial"></div>
+    <div class="container glass">
+        <!-- Sidebar: Agent Info & Progress -->
+        <aside class="sidebar">
+            <header>
+                <h1 class="logo">RE-ACT<span> V1</span></h1>
+                <p class="status online">Agent Active</p>
+            </header>
+            <div class="telemetry">
+                <h3>THÔNG SỐ TEST</h3>
+                <div class="stat-card">
+                    <span class="label">P50 Latency</span>
+                    <span class="value">~2.02s</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Max Steps</span>
+                    <span class="value">8 Steps</span>
+                </div>
+            </div>
+            <div class="tools-info">
+                <h3>CÔNG CỤ KẾT NỐI</h3>
+                <ul>
+                    <li><span class="dot"></span> Inventory</li>
+                    <li><span class="dot"></span> Discount</li>
+                    <li><span class="dot"></span> Shipping</li>
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <button id="reset-btn" class="glass-btn">Xóa lịch sử (Reset)</button>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <div id="chat-messages" class="messages-container">
+                <div class="message bot intro">
+                    <div class="bubble">
+                        Chào bạn! Mình là Trợ lý E-commerce thông minh. Mình có thể kiểm tra kho, tính mã giảm giá và phí ship. Bạn cần mua gì hôm nay?
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="input-container glass">
+                <input type="text" id="user-input" placeholder="Viết yêu cầu của bạn tại đây..." autocomplete="off">
+                <button id="send-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="send-icon">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>

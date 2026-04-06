@@ -24,6 +24,7 @@ class OpenAIProvider(LLMProvider):
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
+            max_tokens=2000  # Giới hạn để tránh lỗi 402 trên OpenRouter
         )
 
         end_time = time.time()
@@ -53,7 +54,8 @@ class OpenAIProvider(LLMProvider):
         stream = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
-            stream=True
+            stream=True,
+            max_tokens=2000  # Giới hạn để tránh lỗi 402
         )
 
         for chunk in stream:
